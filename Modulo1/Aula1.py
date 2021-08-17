@@ -15,3 +15,7 @@ print(var)
 
 num = 10 + 15
 print(num)
+
+a = 5
+b = 6
+print (a + b)
