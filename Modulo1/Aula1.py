@@ -19,3 +19,6 @@ print(num)
 a = 5
 b = 6
 print (a + b)
+
+var = a + b
+print (var)
