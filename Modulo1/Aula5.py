@@ -61,12 +61,31 @@ if preguica == 'sim' and trabalho == 'não':
 elif preguica == 'não'  and trabalho == 'não':
   print('Que tal estudar Python?')
 
+#6---------------------------
+idade = 18
+if idade < 12:
+ print('crianca')
+elif idade < 18:
+ print('adolescente')
+elif idade < 60:
+ print('adulto')
+else:
+ print('idoso')
+
+
+
 
 #For-----------------------------------------------
 #1---------------------------
 numeros = (1,2,3,4,5,6,7,8,9,10)
 for i in numeros:
   print (i)
+for i in range(1,5):
+ print(i)
+
+ nomes = ['João', 'Maria', 'José', 'Geraldo', 'Sebastião']
+for i in nomes:
+ print(i)
 
 #2---------------------------
 cor = ['verde','amarelo','azul','cinza','vermelho']
