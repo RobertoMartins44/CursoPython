@@ -31,6 +31,7 @@ print ('O valor de seus rendimentos é R$ :',total_salario)
 
 
 
+
 #lambda função anonima
 x = 5
 y = 8
