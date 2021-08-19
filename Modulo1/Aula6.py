@@ -1,4 +1,8 @@
 #Funções
+import numpy as np
+x = [1,2,3]
+y = np.array(x)
+print(x)
 
 def hello (meu_nome):
   print ('Olá',meu_nome)
