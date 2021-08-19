@@ -125,7 +125,24 @@ for i in nomes:
 
  #While----------------------------------------------------
  numero = 0
- while numero <= 5:
+ while numero <= 10:
      numero += 1
      print(numero)
+
+ligar = 'true'
+while (ligar):
+    print('Motor ligado')
+    ligar = 'false'
+    break
+else:
+    print('Desligado')
+
+conta = 0
+while(conta <= 10):
+    conta += 1
+    print(conta)
+else:
+    print("Valor da variável conta é: ", conta)
+
+
 
